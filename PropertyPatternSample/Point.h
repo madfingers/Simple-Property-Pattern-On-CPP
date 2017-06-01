@@ -4,11 +4,10 @@ class Point {
 	int x, y;
 public:
 	Point();
-	const Property<int, Point> X;
-	const Property<int, Point> Y;
+	const Property<int, Point> X, Y;
 private:
 	int GetX();
-	void SetX(int value);
 	int GetY();
+	void SetX(int value);
 	void SetY(int value);
 };
